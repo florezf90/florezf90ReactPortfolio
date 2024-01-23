@@ -1,0 +1,26 @@
+.navbar {
+  background: linear-gradient(to left, #4b6cb9, #182848); 
+  border-radius: 10px; 
+  padding: 1%;
+}
+
+/* Increase the hover effect */
+.navbar-item:hover {
+  background-color: #4b6cb7; /* Change the background color on hover */
+  color: white; /* Change the text color on hover */
+  border-radius: 5px; /* Rounded corners for the navbar items */
+
+}
+
+.navbar-item {
+  color: white;
+}
+
+.navbar-burger {
+  color: white;
+}
+
+.navbar-burger:hover {
+  color: white;
+}
+
