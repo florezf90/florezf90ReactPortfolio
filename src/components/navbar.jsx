@@ -1,6 +1,6 @@
 import 'bulma/css/bulma.css';
 import './CSS/navbar.css';
-import React, { useState } from 'react';
+import  { useState } from 'react';
 
 const Header = () => {
       const [isActive, setIsActive] = useState(false);
