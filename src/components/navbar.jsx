@@ -1,5 +1,5 @@
 import 'bulma/css/bulma.css';
-import './navbar.css';
+import './CSS/navbar.css';
 import React, { useState } from 'react';
 
 const Header = () => {
