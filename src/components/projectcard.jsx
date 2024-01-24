@@ -9,15 +9,17 @@ const ProjectCard = ({ project }) => {
       <div className="card mt-6" style={{ borderRadius: "10px" }}>
         <div className="card-content">
           <div className="columns is-mobile">
-            <div className="column is-one-fifth">
-              <figure className="image is-96x96">
-                <img src={project.img} alt="Project Image" />
-              </figure>
-            </div>
             <div className="column">
-              <p className="title is-size-4">{project.title}</p>
-              <p>{project.about}</p>
-              <p>Skills used: {project.skillsUsed.join(', ')}</p>
+              <p className="title is-size-4 has-text-centered skillstitle">{project.title}</p>
+              <a href={project.url} target="_blank" rel="noopener noreferrer">
+                <figure className="image is-21 mb-6">
+                  <img src={project.img} alt="memoria" />
+                </figure>
+              </a>
+              <p className="mb-6 ">{project.about}</p>
+              <p>Skills used: 
+                <br />
+                <br />{project.skillsUsed.join(', ')}</p>
             </div>
           </div>
         </div>
@@ -32,6 +34,7 @@ ProjectCard.propTypes = {
     title: PropTypes.string,
     about: PropTypes.string,
     skillsUsed: PropTypes.arrayOf(PropTypes.string),
+    url: PropTypes.string
   }).isRequired,
 };
 
