@@ -15,14 +15,18 @@ const Header = () => {
   const handleScroll = () => {
     const navbar = document.querySelector('.navbar');
     if (window.scrollY > 0) {
-      navbar.classList.add('is-fixed-top', 'has-background-primary');
+      navbar.classList.add('is-fixed-top', );
+            navbar.style.background = 'transparent'; // Set the background color to match the page's background
+
     } else {
-      navbar.classList.remove('is-fixed-top', 'has-background-primary');
+      navbar.classList.remove('is-fixed-top', );
+                  navbar.style.background = 'linear-gradient(135deg, #001f3f, #111)';
+
     }
   };
 
   return (
-    <nav className="navbar is-flex is-justify-content-center mt-3" role="navigation" aria-label="main navigation">
+    <nav className="navbar is-flex is-justify-content-center mt-3" role="navigation" aria-label="main navigation" style={{background: 'linear-gradient(135deg, #001f3f, #111)'}}>
       <div className="navbar-brand">
         <a role="button" className={`navbar-burger ${isActive ? 'is-active' : ''}`} aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" onClick={() => setIsActive(!isActive)}>
           <span aria-hidden="true"></span>

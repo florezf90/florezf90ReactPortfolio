@@ -7,10 +7,14 @@ import 'bulma/css/bulma.css';
 
 
 function App () {
+  const backgroundStyle = {
+    background: 'linear-gradient(135deg, #001f3f, #111)',
+  };
+
   return (
-    <div className="columns is-centered">
+    <div className="columns is-centered" style={backgroundStyle}>
       <div className="column is-10">
-        <Header />
+        <Header  style={backgroundStyle}/>
         <HomeScreen />
         <SkillsScreen />
         <ProjectsScreen />
@@ -18,7 +22,6 @@ function App () {
       </div>
     </div>
   )
-  
 }
 
 
