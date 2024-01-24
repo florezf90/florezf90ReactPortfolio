@@ -1,7 +1,8 @@
 .navbar {
-  background: linear-gradient(to left, #4b6cb9, #182848); 
-  border-radius: 10px; 
+  background: linear-gradient(to left, #4b6cb9, #182848);
+  border-radius: 10px;
   padding: 1%;
+  transition: background-color 0.3s; /* Add transition for smooth color change */
 }
 
 /* Increase the hover effect */
@@ -9,7 +10,6 @@
   background-color: #4b6cb7; /* Change the background color on hover */
   color: white; /* Change the text color on hover */
   border-radius: 5px; /* Rounded corners for the navbar items */
-
 }
 
 .navbar-item {
@@ -24,3 +24,8 @@
   color: white;
 }
 
+/* Styles for the scrolled state */
+.navbar.scrolled {
+  background-color: rgba(75, 108, 185, 0.9); /* Apply the faded background color when scrolled */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+}
