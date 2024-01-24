@@ -20,13 +20,13 @@ const Header = () => {
 
     } else {
       navbar.classList.remove('is-fixed-top', );
-                  navbar.style.background = 'linear-gradient(135deg, #001f3f, #111)';
+                  navbar.style.background = 'linear-gradient(to left, #000, #001f3f)';
 
     }
   };
 
   return (
-    <nav className="navbar is-flex is-justify-content-center mt-3" role="navigation" aria-label="main navigation" style={{background: 'linear-gradient(135deg, #001f3f, #111)'}}>
+<nav className="navbar is-flex is-justify-content-center mt-3" role="navigation" aria-label="main navigation" style={{background: 'linear-gradient(to left, #000, #001f3f)'}}>
       <div className="navbar-brand">
         <a role="button" className={`navbar-burger ${isActive ? 'is-active' : ''}`} aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" onClick={() => setIsActive(!isActive)}>
           <span aria-hidden="true"></span>

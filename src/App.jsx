@@ -14,7 +14,7 @@ function App () {
   return (
     <div className="columns is-centered" style={backgroundStyle}>
       <div className="column is-10">
-        <Header  style={backgroundStyle}/>
+        <Header  />
         <HomeScreen />
         <SkillsScreen />
         <ProjectsScreen />
