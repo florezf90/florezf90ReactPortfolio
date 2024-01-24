@@ -7,7 +7,7 @@ const SkillsScreen = () => {
       <div className="hero-body">
         <div className="container">
           <h1 className="title is-1 has-text-centered mb-6">Skills</h1>
-          <div className="columns is-centered is-variable is-8 mt-6">
+          <div className="columns is-centered is-variable is-8 my-6">
             <div className="column is-4 mt-6">
               <div className="card mt-6">
                 <div className="card-content">
