@@ -27,7 +27,7 @@ const HomeScreen = () => {
           <div className="columns is-vcentered">
             <div className="column">
               <figure className=" is-23by has-hover-shadow">
-               <img src={personalimg} alt="sumadre" className="image" />
+               <img src={personalimg} alt="sumadre" className="image homeimg" />
               </figure>
             </div>
             <div className="column is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
