@@ -28,7 +28,7 @@ const ProjectCard = ({ project }) => {
 
 ProjectCard.propTypes = {
   project: PropTypes.shape({
-    img: PropTypes.string,
+    img: PropTypes.img,
     title: PropTypes.string,
     about: PropTypes.string,
     skillsUsed: PropTypes.arrayOf(PropTypes.string),

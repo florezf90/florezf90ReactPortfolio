@@ -1,6 +1,22 @@
-.image-container:hover .image {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  transition: box-shadow 0.3s ease;
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+/* Applying the shake animation to the title when hovered over */
+
+.title, .subtitle {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  color: aliceblue;
+}
+
+.image  {
+  border-radius: 20px; /* Rounded corners for the navbar items */
+  transition: transform 0.3s ease; /* Adding transition for the hover effect */
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0); /* Initial shadow */
 }
 
 .title:hover {
@@ -11,4 +27,10 @@
 .subtitle:hover {
   opacity: 0.8;
   transition: opacity 0.3s ease;
+}
+
+/* Adding hover effect for the image */
+.image:hover {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); /* White shadow */
+
 }
