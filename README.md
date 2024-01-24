@@ -56,17 +56,16 @@ Even though I am fresh to the concepts of React, I ensured that the application 
 </div>
 
 
-* [![PWA pattern](https://img.shields.io/badge/PWA%20pattern-white?style=for-the-badge&logo=npm&logoColor=black&link=https://www.geeksforgeeks.org/mvc-design-pattern/)](https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/how-to/)
-
-* [![webpack](https://img.shields.io/badge/webpack-blue?style=for-the-badge&logo=node.js&logoColor=white&link=https://www.npmjs.com/package/webpack#install)](https://www.npmjs.com/package/webpack#install)
-
-* [![Express.js](https://img.shields.io/badge/Express-000000.svg?style=for-the-badge&logo=Express&logoColor=white)](https://expressjs.com/en/4x/api.html)
-
-* [![node](https://img.shields.io/badge/node-green?style=for-the-badge&logo=node.js&logoColor=white&link=https://www.npmjs.com/package/node)](https://www.npmjs.com/package/node)
+* [![react](https://img.shields.io/badge/react-blue?style=for-the-badge&logo=react&logoColor=white&link=https://react.dev/)](https://react.dev/)
 
 * [![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=white&link=https://developer.mozilla.org/en-US/docs/Web/JavaScript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-* [![babel](https://img.shields.io/badge/babel-red?style=for-the-badge&logo=babel&logoColor=white&link=https://www.npmjs.com/package/@babel/core)](https://www.npmjs.com/package/@babel/core)
+* [![bulma](https://img.shields.io/badge/bulma-white?style=for-the-badge&logo=bulma&logoColor=green&link=https://bulma.io/documentation/)](https://bulma.io/documentation/)
+
+* [![vite](https://img.shields.io/badge/vite-black?style=for-the-badge&logo=vite&logoColor=purple&link=https://bulma.io/documentation/)](https://bulma.io/documentation/)
+
+* [![animate.css](https://img.shields.io/badge/animate.css-red?style=for-the-badge&logo=vite&logoColor=white&link=https://animate.style/)](https://animate.style/)
+
 
 ---------------------------------
 
@@ -95,7 +94,7 @@ First, clone the  repository by following the next steps:
       
 Once done, your command line should look like this:
 
-![application run screenshot](./client/src/images/Screenshot%202024-01-16%20015832.png)
+![application run screenshot](./src/assets/photos/build.png)
 
 
 4.Launch the app on localhost by running:
@@ -108,9 +107,7 @@ once done, you'll get something like this:
 
 
 
- ![insomia screenshot](./client/src/images/Screenshot%202024-01-16%20020224.png)
-
- ### To test the offline feature, please hit the install button in the top left corner.
+ ![insomia screenshot](./src/assets/photos/deploy.png)
 
  -----------------------------
 
