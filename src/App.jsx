@@ -2,6 +2,7 @@ import Header from './components/navbar'
 import HomeScreen from './components/home'
 import SkillsScreen from './components/skills'
 import ProjectsScreen from './components/projects';
+import ContactMe from './components/contactme';
 import 'bulma/css/bulma.css';
 
 
@@ -13,6 +14,7 @@ function App () {
         <HomeScreen />
         <SkillsScreen />
         <ProjectsScreen />
+        <ContactMe />
       </div>
     </div>
   )
