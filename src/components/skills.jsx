@@ -1,5 +1,5 @@
 import 'bulma/css/bulma.css';
-import './CSS/SkillsScreen.css';
+import './CSS/skillsScreen.css';
 
 const SkillsScreen = () => {
   return (
