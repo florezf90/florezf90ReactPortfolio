@@ -3,7 +3,7 @@ import './CSS/SkillsScreen.css';
 
 const SkillsScreen = () => {
   return (
-    <section className="hero is-fullheight">
+    <section className="hero is-fullheight" id="skills">
       <div className="hero-body">
         <div className="container">
           <h1 className="title is-1 has-text-centered mb-6">Skills</h1>

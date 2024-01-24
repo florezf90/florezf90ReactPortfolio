@@ -3,7 +3,7 @@ import './CSS/homescreen.css';
 
 const HomeScreen = () => {
   return (
-<section className="hero is-fullheight">
+<section className="hero is-fullheight" id="home">
       <div className="hero-body is-full">
         <div className="container">
           <div className="columns is-vcentered">
