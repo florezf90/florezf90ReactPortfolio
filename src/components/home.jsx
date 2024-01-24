@@ -17,7 +17,9 @@ const HomeScreen = () => {
 
   const handlerHoverOut = (event ) => {
     event.target.classList.remove('animate__animated', 'animate__shakeX');
-  }
+  };
+
+  
   return (
     <section className="hero is-fullheight" id="home">
       <div className="hero-body is-full">
