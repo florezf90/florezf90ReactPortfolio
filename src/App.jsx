@@ -1,6 +1,7 @@
 import Header from './components/navbar'
 import HomeScreen from './components/home'
 import SkillsScreen from './components/skills'
+import ProjectsScreen from './components/projects';
 import 'bulma/css/bulma.css';
 
 
@@ -11,6 +12,7 @@ function App () {
         <Header />
         <HomeScreen />
         <SkillsScreen />
+        <ProjectsScreen />
       </div>
     </div>
   )
