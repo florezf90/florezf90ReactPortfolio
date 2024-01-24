@@ -1,11 +1,16 @@
 import "bulma/css/bulma.css";
 import "./CSS/homescreen.css";
-import 'animate.css'; // Import Animate.css library
+import 'animate.css'; 
+import { useEffect } from 'react';
 
 import  personalimg  from "../assets/photos/florezf90.jpg";
 
 
 const HomeScreen = () => {
+
+   useEffect(() => {
+    document.title = `Florezf90 - Portfolio`; // Set the new website title
+  }, []);
   const handlerHover = (event ) => {
     event.target.classList.add('animate__animated', 'animate__shakeX');
   };
